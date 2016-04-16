@@ -1,0 +1,29 @@
+{
+  "name": "mff-command-init",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candyHuang/mff-command-init.git"
+  },
+  "keywords": [
+    "mff",
+    "fis3"
+  ],
+  "author": "candyHuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candyHuang/mff-command-init/issues"
+  },
+  "homepage": "https://github.com/candyHuang/mff-command-init#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "debug": "^2.2.0",
+    "generator-mff": "^0.1.0",
+    "yeoman-generator": "^0.22.5"
+  }
+}
