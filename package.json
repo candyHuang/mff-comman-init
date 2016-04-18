@@ -1,6 +1,6 @@
 {
   "name": "mff-command-init",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,10 @@
   "dependencies": {
     "colors": "^1.1.2",
     "debug": "^2.2.0",
-    "generator-mff": "^0.1.0",
+    "rimraf": "^2.5.2",
     "yeoman-generator": "^0.22.5"
+  },
+  "devDependencies": {
+    "fis3": "^3.3.26"
   }
 }
