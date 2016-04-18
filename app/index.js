@@ -104,6 +104,10 @@ proto.meta = function () {
       this.templatePath('fis-conf.js'),
       this.destinationPath('fis-conf.js')
     );
+    this.fs.copy(
+      this.templatePath('map.json'),
+      this.destinationPath('map.json')
+    );
 };
 
 proto.scaffold = function() {
