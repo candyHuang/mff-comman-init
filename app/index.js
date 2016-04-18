@@ -121,5 +121,5 @@ proto.scaffold = function() {
 }
 
 proto.install = function() {
-  // this.npmInstall();
+  this.npmInstall();
 }
