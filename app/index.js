@@ -117,6 +117,7 @@ proto.scaffold = function() {
   this._copyDir('static');
   this._copyDir('test');
   this._copyDir('widget');
+  this._copyDir('ui');
   this._copyDir('WEB-INF');
 }
 
