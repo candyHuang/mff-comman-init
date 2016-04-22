@@ -27,9 +27,13 @@ exports.run = function(argv, cli, env) {
         args = Array.prototype.slice.call(arguments),
         options = args.pop(),
         opts = {
-            clean: true,
+            clean: false,
             'skip-install': true
         };
+
+    if (argv.c || argv.clean) {
+        opts.clean = true
+    }
 
     yeomanEnv.registerStub(Generator, 'mff');
     yeomanEnv.run('mff', opts, function() {
